@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout>
+    <contacts_index_index>
+        <reference name="content">
+            <block type="core/template" name="contactMap" after="contactForm">
+		<action method="setTemplate" ifconfig="bemaged_contacts/general/enable"><template>bemaged/contacts/map.phtml</template></action>
+	    </block>
+        </reference>
+    </contacts_index_index>
+</layout>

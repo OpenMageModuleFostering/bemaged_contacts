@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Bemaged_Contacts</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension will allow you to add a Google Map to the Magento Contact Us page</summary>
+    <description>Do you want to provide your customers with accurate and detailed information about your stores location? Add a Google Map to the Magento Contact Us page right from the Admin Panel.&#xD;
+&#xD;
+This extension allows you to display a map on the Magento Contact Us page. Simply install the module and enable it. In your admin panel there will be a field to enter the URL from Google Maps iframe to your location. After saving it this map will be displayed below the Magento Contact Form.</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Matthijs IJsseldijk</name><user>BeMaged</user><email>hello@bemaged.com</email></author></authors>
+    <date>2014-12-14</date>
+    <time>12:10:01</time>
+    <contents><target name="magecommunity"><dir name="Bemaged"><dir name="Contacts"><dir name="Helper"><file name="Data.php" hash="7ba487618384cfac1bb14dabdf697957"/></dir><dir name="etc"><file name="adminhtml.xml" hash="8be34b7f589365eaaed3eb4c4c53ee61"/><file name="config.xml" hash="b4c7ec0623257bc8d01013fb5546fd88"/><file name="system.xml" hash="b654d29b297f5519ac1cf733a5e6f935"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Bemaged_Contacts.xml" hash="5dc8a92f39e957d4bc4bda1f06fbb0d0"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="bemaged"><file name="bemaged_contacts.xml" hash="0c5ff8cd4ae1b02808cc75a4789c481f"/></dir></dir><dir name="template"><dir name="bemaged"><dir name="contacts"><file name="map.phtml" hash="96b7b849a52b3b30c1b6e0c00478f9e1"/></dir></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Bemaged_Contacts.csv" hash="3fd274d4583814632264d1d1eb803ee7"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.0</max></php></required></dependencies>
+</package>

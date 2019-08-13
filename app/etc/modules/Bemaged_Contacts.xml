@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bemaged_Contacts>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Bemaged_Contacts>
+    </modules>
+</config>

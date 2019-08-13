@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Bemaged_Contacts
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* http://opensource.org/licenses/OSL-3.0
+*
+* @package      Bemaged_Contacts
+* @copyright    Copyright (c) 2014 BeMaged eCommerce (http://www.bemaged.com)
+* @author       Matthijs IJsseldijk <hello@bemaged.com>
+* @license      http://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
+*/
+-->
+<config>
+    <modules>
+        <Bemaged_Contacts>
+            <version>1.0.0</version>
+        </Bemaged_Contacts>
+    </modules>
+    <global>
+        <helpers>
+            <bemaged_contacts>
+                <class>Bemaged_Contacts_Helper</class>
+            </bemaged_contacts>
+        </helpers>
+        <resources>
+            <bemaged_contacts_setup>
+                <setup>
+                    <module>Bemaged_Contacts</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </bemaged_contacts_setup>
+        </resources>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <bemaged_contacts>
+                    <file>bemaged/bemaged_contacts.xml</file>
+                </bemaged_contacts>
+            </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Bemaged_Contacts>
+                    <files>
+                        <default>Bemaged_Contacts.csv</default>
+                    </files>
+                </Bemaged_Contacts>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>

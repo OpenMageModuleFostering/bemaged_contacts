@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+ /**
+ * Bemaged Contacts Extension
+ *
+ * @category     Extension
+ * @copyright    Copyright (c) 2014 Bemaged (http://www.bemaged.com)
+ * @author       Matthijs IJsseldijk (hello@bemaged.com)
+ * @license      
+ * @terms of use 
+ * @version      Release: 1.0.0
+ * @since        Class available since Release 1.0.0
+ */ 
+ -->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <bemaged_contacts translate="title" module="bemaged_contacts">
+                                        <title>Bemaged Contacts</title>
+                                        <sort_order>700</sort_order>
+                                    </bemaged_contacts>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

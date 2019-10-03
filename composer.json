@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Bemaged_Contacts",
+    "name": "openmage-module-fostering\/bemaged_contacts",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension will allow you to add a Google Map to the Magento Contact Us page",
     "authors": [
